@@ -1,0 +1,93 @@
+/*  ------------- nav-bar -------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar-container {
+    padding: 1em 5em;
+  }
+  
+  img[src="./assets/Logo.png"] {
+    float: left;
+    width: 110px;
+  }
+  
+  .grow-list {
+    float: left;
+    margin-top: 1em;
+  }
+  
+  .list-item {
+    display: inline;
+    text-decoration: none;
+    font-family: poppins;
+    color: #354e59;
+    font-size: 15px;
+  
+    padding: 2em 0em 0em 3em;
+  }
+  
+  .list-item:hover {
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+  .button-group {
+    float: right;
+  }
+  .banner-container {
+    width: 100%;
+  }
+  
+  /*  ------------- Banner -------------*/
+  .banner-container > div:nth-child(1) {
+    float: left;
+    width: 35%;
+    margin-top: 130px;
+    margin-left: 5em;
+    font-family: poppins;
+  }
+  
+  .banner-container > div:nth-child(2) {
+    float: right;
+    width: 58%;
+    margin-top: 2.5em;
+  }
+  
+  .banner-container > div:nth-child(2) > img {
+    width: 100%;
+    height: 90%;
+  }
+  
+  .heading-text > span {
+    color: #383cc1;
+  }
+  
+  h1 {
+    color: #191266;
+    font-size: 62px;
+    line-height: 1.2;
+  }
+  
+  .description {
+    color: #354e59;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    width: 70%;
+  }
+  
+  .nav-button {
+    background-color: #383cc1;
+    color: white;
+    padding: 1em;
+    border: 1px solid #383cc1;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .btn {
+    width: 200px;
+    font-size: 15px;
+  }
+  
